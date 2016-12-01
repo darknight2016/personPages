@@ -1,6 +1,6 @@
 /*stype.css*/
 body,html{
-	background-color: #00f;
+	background-color: #fff;
 }
 /*常用样式*/
 .clearfix:after{
@@ -145,7 +145,11 @@ body,html{
 
 /*tab-list*/
 .tabs-list{
+	position: fixed;
+	bottom: 20px;
 	display: flex;
+	width: 100%;
+	background-color: #fff;
 }
 .tabs-list li{
 	box-sizing: border-box;
@@ -156,6 +160,12 @@ body,html{
 	background-image: url(../images/2.png);
 	background-repeat: no-repeat;
 	background-position: center;
+}
+.main-footer{
+	position: fixed;
+	bottom: 0;
+	width: 100%;
+	background-color: #fff;
 }
 /*tab-list end*/
 
