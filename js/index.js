@@ -9,7 +9,7 @@ window.onload = function(){
 
  	// tab切换模块
  	var oTabsContainer = document.getElementById('tabsContainer');
- 	console.log(oTabsContainer);
+ 	// console.log(oTabsContainer);
  	var aTabs = getElementsByClass('tab',oTabsContainer);
  	var oTabsList = document.getElementById('tabsList');
  	var aBtn = oTabsList.getElementsByTagName('li');
