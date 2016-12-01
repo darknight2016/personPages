@@ -148,7 +148,6 @@ body,html{
 	position: fixed;
 	bottom: 20px;
 	display: flex;
-	width: 100%;
 	background-color: #fff;
 }
 .tabs-list li{
@@ -173,82 +172,98 @@ body,html{
 /*response start*/
 /*idea viewport 480px*/
 @media (max-width: 1680px){
-	.main{
+	.main,
+	.tabs-list{
 		width: 28%;
 	}
 }
 @media (max-width: 1600px){
-	.main{
+	.main,
+	.tabs-list{
 		width: 30%;
 	}
 }
 @media (max-width: 1400px){
-	.main{
+	.main,
+	.tabs-list{
 		width: 34%;
 	}
 }
 @media (max-width: 1366px){
-	.main{
+	.main,
+	.tabs-list{
 		width: 35%;
 	}
 }
 @media (max-width: 1280px){
-	.main{
+	.main,
+	.tabs-list{
 		width: 38%;
 	}
 }
 @media (max-width: 1080px){
-	.main{
+	.main,
+	.tabs-list{
 		width: 45%;
 	}
 }
 @media (max-width: 1024px){
-	.main{
+	.main,
+	.tabs-list{
 		width: 47%;
 	}
 }
 @media (max-width: 991px){
-	.main{
+	.main,
+	.tabs-list{
 		width: 49%;
 	}
 }
 @media (max-width: 800px){
-	.main{
+	.main,
+	.tabs-list{
 		width: 60%;
 	}
 }
 @media (max-width: 768px){
-	.main{
+	.main,
+	.tabs-list{
 		width: 63%;
 	}
 }
 @media (max-width: 736px){
-	.main{
+	.main,
+	.tabs-list{
 		width: 66%;
 	}
 }
 @media (max-width: 667px){
-	.main{
+	.main,
+	.tabs-list{
 		width: 73%;
 	}
 }
 @media (max-width: 640px){
-	.main{
+	.main,
+	.tabs-list{
 		width: 76%;
 	}
 }
 @media (max-width: 600px){
-	.main{
+	.main,
+	.tabs-list{
 		width: 81%;
 	}
 }
 @media (max-width: 568px){
-	.main{
+	.main,
+	.tabs-list{
 		width: 86%;
 	}
 }
 @media (max-width: 480px){
-	.main{
+	.main,
+	.tabs-list{
 		width: 100%;
 	}
 }
